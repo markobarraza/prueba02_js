@@ -1,37 +1,103 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-color: #e7f6fd;
+}
+/* HEADER */
+.head {
+	background-color: white;
+	padding: 10px 0;
+	text-align: center;
+}
+.fa-twitter {
+	color: #00ACED;
+	font-size: 35px;
+}
+/* FORM */
+.contenedor_izquierda{
+	padding: 20px;
+	max-width: 100%;
+	background-color: #C0DEED;
+	border-radius: 10px;
+	margin-top: 100px;
+	border: 1px solid #b9e2f5;
 }
 .tweet{
-	height: 100vh;
-
-	background-color: #b9b9b9;
 	margin: 0;
 	padding: 0;
-	
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
+.form-control {
+	border: 1px solid #00ACED;
+	border-radius: 5px;
+	max-width: 400px;
+	width: 100%;
+}
+.btn-form{
+	width: 400px;
+	max-width: 100%;
+	margin-top: 10px;
+	background-color: #00ACED;
+	border-radius: 5px;
+	border: none;
+	padding-top: 5px;
+	color: white;
+	letter-spacing: 1px;
+}
+
+@media (max-width: 480px) {
+	.tweet{
+		padding: 0 20px;
+	}
+}
+
+/* PUBLICACIONES */
 .contenedor_publicaciones{
-	margin-top: 20px;
+	margin-top: 100px;
 }
 .publicaciones{
-	background-color: #b9b9b9;
-	width: 100%;
-	max-width: 700px;
-	height: 130px;
-	margin: 0 auto;
-	border-radius: 5px;
-	text-align: center;
-	margin-top: 10px;
+	border-bottom: 1px solid #C0DEED;
+	margin-bottom: 20px;
+	width: 90%;
+}
+.icons{
+	padding: 0 10px 10px 10px;
+	color: #9ac9e0;
+}
+.fa-trash-alt:hover {
+	color: #00ACED;
+}
+.fa-heart:hover {
+	color: red;
 }
 .publicaciones_text{
-	
-	background-color: #cecece;
-	margin: 10px 10px;
 	display: inline-block;
 	padding: 10px;
 	border-radius: 5px;
+	width: 96%;
+	height: 65%;
 }
 .publicaciones_text p{
 	font-size: 1.2rem;
 	text-align: justify;
+}
+.heart-red{
+	color: red;
+}
+.publicaciones .publicaciones_text h2{
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 5px 0;
+	color: #0084B3;
+}
+@media (max-width: 480px){
+	.publicaciones{
+		width: 100%;
+	}
+	.contenedor_publicaciones{
+		margin-top: 50px;
+	}
 }

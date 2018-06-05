@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Prueba JS</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -13,31 +14,38 @@
 	<link rel="stylesheet" href="css/style.css"> 
 </head>
 <body>
+	<header>
+		<div class="head">
+			<i class="fab fa-twitter"></i>
+		</div>
+	</header>
 
 	<section>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-md-3 tweet">
+				<div class="col-xs-12 col-md-5 tweet">
 					<div class="contenedor_izquierda">
 						<form id="publicacion">
 							<textarea id="mipublicacion" class="form-control" rows="3"></textarea>
-							<input type="submit" name="" value="Publicar">
+							<input class="btn-form" type="submit" name="" value="Publicar">
 						</form>
 
 					</div>
 				</div>
 
-				<div class="col-xs-12 col-md-9">
+				<div class="col-xs-12 col-md-7">
 					<div id="contenedor" class="contenedor_publicaciones">
 						<div class="publicaciones">
 							<div class="publicaciones_text">
+								<h2>@usuario</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aperiam iure quam modi, maxime praesentium quod doloremque esse quidem, repellendus reprehenderit possimus dignissimos non voluptates architecto excepturi dolorem obcaecati. Quidem!</p>
 							</div>
 							<div class="publicaciones_icons">
 								<i class="fas fa-trash-alt icons"></i>
-								<i class="fas fa-heart icons"></i>
+								<i class="fas fa-heart heart-red icons"></i>
 							</div>
 						</div>
+					</div>
 				</div>
 			</div>
 		</div>
