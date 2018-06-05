@@ -62,6 +62,10 @@ body{
 	margin-bottom: 20px;
 	width: 90%;
 }
+.publicaciones:hover{
+	background-color: #e0f0f8;
+	transition: .5s;
+}
 .icons{
 	padding: 0 10px 10px 10px;
 	color: #9ac9e0;
