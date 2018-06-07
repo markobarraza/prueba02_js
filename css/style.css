@@ -66,15 +66,18 @@ body{
 	background-color: #e0f0f8;
 	transition: .5s;
 }
-.icons{
+.fa-trash-alt{
 	padding: 0 10px 10px 10px;
 	color: #9ac9e0;
 }
 .fa-trash-alt:hover {
 	color: #00ACED;
 }
+.fa-heart{
+	color: #9ac9e0;
+}
 .fa-heart:hover {
-	color: red;
+	color: #00ACED;
 }
 .publicaciones_text{
 	display: inline-block;
@@ -96,6 +99,13 @@ body{
 	margin: 0;
 	padding: 5px 0;
 	color: #0084B3;
+}
+.publicaciones_icons h2 {
+	display: inline-block;
+	color: #aac7d6;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
 }
 @media (max-width: 480px){
 	.publicaciones{
