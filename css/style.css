@@ -75,6 +75,7 @@ body{
 }
 .fa-heart{
 	color: #9ac9e0;
+	padding-right: 10px;
 }
 .fa-heart:hover {
 	color: #00ACED;
